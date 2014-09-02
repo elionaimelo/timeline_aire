@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "timeline",
+  "launch_path": "/index.html",
+  "description": "Site teste",
+  "icons": {
+    "128": "/images/touch/icon-128x128.png"
+  },
+  "developer": {
+    "name": "Elionai Melo",
+    "url": ""
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "pt-br",
+  "permissions": {
+  },
+  "locales": {
+    "pt-br": {
+      "name": "time",
+      "description": "timeline"
+    }
+  }
+}
