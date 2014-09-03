@@ -370,7 +370,7 @@ main {
 
 /* General Demo Style */
 body{
-    background: #f7f7f7 url(../images/old_wall.jpg) repeat top left;
+    background: #f7f7f7 url(../images/old_wall.png) repeat top left;
     color: rgba(0,0,0,0.8);
     font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
     font-size: 15px;
@@ -379,6 +379,7 @@ a{
     color: #fff;
     text-decoration: none;
 }
+
 .container{
     width: 100%;
     position: relative;
@@ -496,20 +497,30 @@ h2.ss-subtitle:after{
 }
 .ss-links{
     position: fixed;
-    left: 10px;
-    top: 166px;
-    width: 25%;
+    width: 100%;
+    background: #ffffff;
+    left: 0px;
+    top: 0px;
     z-index: 100;
 }
+.ss-links div {
+  max-width: 960px;
+  margin: auto;
+}
+
+.ss-links div a.logo {
+  float: left;
+  display: inline;
+  margin-top: -1px;
+}
 .ss-links a{
-    background: rgba(0,0,0,0.2);
+  color: #333333;
     font-size: 16px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin: 5px;
-    float: left;
-    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
     display: block;
     text-align: center;
     -webkit-transition: background 0.2s linear;
@@ -519,7 +530,12 @@ h2.ss-subtitle:after{
     transition: background 0.2s linear;
 }
 .ss-links a:hover{
-    background: rgba(0,0,0,0.4);
+    background: #e0d4a5;
+    opacity: 0.9;
+}
+
+.ss-links a.logo:hover {
+  background: none;
 }
 .ss-container{
     width: 100%;
@@ -532,9 +548,9 @@ h2.ss-subtitle:after{
 .ss-container h2{
     font-size: 40px;
     text-transform: uppercase;
-    color: rgba(78,84,123,0.2);
-    text-shadow: 0px 1px 1px #fff;
-    padding: 20px 0px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px rgba(26, 27, 33, 0.8);
+    padding: 50px 0px;
 }
 .ss-container:before{
     position: absolute;
@@ -551,7 +567,7 @@ h2.ss-subtitle:after{
     clear: both;
     float: left;
     position: relative;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 .ss-left, .ss-right{
     float: left;
@@ -574,13 +590,13 @@ h2.ss-subtitle:after{
     text-align: left;
     -webkit-box-shadow: 
         0px 2px 5px rgba(0,0,0,0.7) inset, 
-        0px 0px 0px 12px rgba(61,64,85,0.3);
+        0px 0px 0px 12px #fff;
     -moz-box-shadow: 
         0px 2px 5px rgba(0,0,0,0.7) inset, 
-        0px 0px 0px 12px rgba(61,64,85,0.3);
+        0px 0px 0px 12px #fff;
     box-shadow: 
         0px 2px 5px rgba(0,0,0,0.7) inset, 
-        0px 0px 0px 12px rgba(61,64,85,0.3);
+        0px 0px 0px 12px #fff;
     background-size: cover;
     background-color: #f0f0f0;
     background-repeat: no-repeat;
@@ -647,7 +663,7 @@ h2.ss-subtitle:after{
 .ss-container h3{
     margin-top: 34px;
     padding: 10px 15px;
-    background: rgba(26, 27, 33, 0.6);
+    background: #b19c4d;
     text-shadow: 1px 1px 1px rgba(26, 27, 33, 0.8)
 }
 .ss-container .ss-medium h3{
@@ -657,10 +673,10 @@ h2.ss-subtitle:after{
     margin-top: 133px;
 }
 .ss-container .ss-left h3{
-    border-right: 5px solid rgba(164,166,181,0.8);
+    border-right: 5px solid #fff;
 }
 .ss-container .ss-right h3{
-    border-left: 5px solid rgba(164,166,181,0.8);
+    border-left: 5px solid #fff;
 }
 .ss-container h3 span{
     color: rgba(255,255,255,0.8);
@@ -669,6 +685,8 @@ h2.ss-subtitle:after{
     padding-bottom: 5px;
 }
 .ss-container h3 a{
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
     font-size: 28px;
     color: rgba(255,255,255,0.9);
     display: block;
@@ -677,92 +695,249 @@ h2.ss-subtitle:after{
     color: rgba(255,255,255,1);
 }
 .ss-circle-1{
-    background-image:url(../images/aire-2.jpg);
+    background-image:url(../images/aire-1.jpg);
 }
 .ss-circle-2{
-    background-image: url(../images/aire-3.jpg);
+    background-image: url(../images/aire-2.jpg);
 }
 .ss-circle-3{
-    background-image: url(../images/3.jpg);
+    background-image: url(../images/aire-3.jpg);
 }
 .ss-circle-4{
-    background-image: url(../images/4.jpg);
+    background-image: url(../images/aire-4.jpg);
 }
 .ss-circle-5{
-    background-image: url(../images/5.jpg);
+    background-image: url(../images/aire-5.jpg);
 }
 .ss-circle-6{
-    background-image: url(../images/6.jpg);
+    background-image: url(../images/aire-6.jpg);
 }
 .ss-circle-7{
-    background-image: url(../images/7.jpg);
+    background-image: url(../images/aire-7.jpg);
 }
 .ss-circle-8{
-    background-image: url(../images/8.jpg);
+    background-image: url(../images/aire-8.jpg);
 }
 .ss-circle-9{
-    background-image: url(../images/9.jpg);
+    background-image: url(../images/aire-9.jpg);
 }
 .ss-circle-10{
-    background-image: url(../images/10.jpg);
+    background-image: url(../images/aire-10.jpg);
 }
 .ss-circle-11{
-    background-image: url(../images/11.jpg);
+    background-image: url(../images/aire-11.jpg);
 }
 .ss-circle-12{
-    background-image: url(../images/12.jpg);
+    background-image: url(../images/aire-12.jpg);
 }
 .ss-circle-13{
-    background-image: url(../images/13.jpg);
+    background-image: url(../images/aire-13.jpg);
 }
 .ss-circle-14{
-    background-image: url(../images/14.jpg);
+    background-image: url(../images/aire-14.jpg);
 }
 .ss-circle-15{
-    background-image: url(../images/15.jpg);
+    background-image: url(../images/aire-15.jpg);
 }
 .ss-circle-16{
-    background-image: url(../images/16.jpg);
+    background-image: url(../images/aire-16.jpg);
 }
 .ss-circle-17{
-    background-image: url(../images/17.jpg);
+    background-image: url(../images/aire-17.jpg);
 }
 .ss-circle-18{
-    background-image: url(../images/18.jpg);
+    background-image: url(../images/aire-18.jpg);
 }
 .ss-circle-19{
-    background-image: url(../images/19.jpg);
+    background-image: url(../images/aire-19.jpg);
 }
 .ss-circle-20{
-    background-image: url(../images/20.jpg);
+    background-image: url(../images/aire-20.jpg);
 }
 .ss-circle-21{
-    background-image: url(../images/21.jpg);
+    background-image: url(../images/aire-21.jpg);
 }
 .ss-circle-22{
-    background-image: url(../images/22.jpg);
+    background-image: url(../images/aire-22.jpg);
 }
 .ss-circle-23{
-    background-image: url(../images/23.jpg);
+    background-image: url(../images/aire-23.jpg);
 }
 .ss-circle-24{
-    background-image: url(../images/24.jpg);
+    background-image: url(../images/aire-26.jpg);
 }
 .ss-circle-25{
-    background-image: url(../images/25.jpg);
+    background-image: url(../images/aire-27.jpg);
 }
 .ss-circle-26{
-    background-image: url(../images/26.jpg);
+    background-image: url(../images/aire-29.jpg);
 }
 .ss-circle-27{
-    background-image: url(../images/27.jpg);
+    background-image: url(../images/aire-30.jpg);
 }
 .ss-circle-28{
-    background-image: url(../images/28.jpg);
+    background-image: url(../images/aire-31.jpg);
 }
 .ss-circle-29{
-    background-image: url(../images/29.jpg);
+    background-image: url(../images/aire-32.jpg);
 }
 .ss-circle-30{
-    background-image: url(../images/30.jpg);
+    background-image: url(../images/aire-33.jpg);
 }
+
+
+/* lote 2 */ 
+
+.ss-circle-lote2-10{
+    background-image: url(../images/lote2/aire-10.jpg);
+}
+
+.ss-circle-lote2-9{
+    background-image: url(../images/lote2/aire-9.jpg);
+}
+
+.ss-circle-lote2-11{
+    background-image: url(../images/lote2/aire-11.jpg);
+}
+
+.ss-circle-lote2-12{
+    background-image: url(../images/lote2/aire-12.jpg);
+}
+
+.ss-circle-lote2-14{
+    background-image: url(../images/lote2/aire-14.jpg);
+}
+
+.ss-circle-lote2-2{
+    background-image: url(../images/lote2/aire-2.jpg);
+}
+
+.ss-circle-lote2-13{
+    background-image: url(../images/lote2/aire-13.jpg);
+}
+
+.ss-circle-lote2-3{
+    background-image: url(../images/lote2/aire-3.jpg);
+}
+
+.ss-circle-lote2-6{
+    background-image: url(../images/lote2/aire-3.jpg);
+}
+
+.ss-circle-lote2-7{
+    background-image: url(../images/lote2/aire-7.jpg);
+}
+
+.ss-circle-lote2-17{
+    background-image: url(../images/lote2/aire-17.jpg);
+}
+
+.ss-circle-lote4-9{
+    background-image: url(../images/lote4/aire-9.jpg);
+}
+
+
+/* lote 3 */ 
+
+.ss-circle-lote3-8{
+    background-image: url(../images/lote3/aire-8.jpg);
+}
+
+.ss-circle-lote3-19{
+    background-image: url(../images/lote3/aire-19.jpg);
+}
+
+.ss-circle-lote3-12{
+    background-image: url(../images/lote3/aire-12.jpg);
+}
+
+/* lote 4 */ 
+
+.ss-circle-lote4-1{
+    background-image: url(../images/lote4/aire-1.jpg);
+}
+
+.ss-circle-lote4-5{
+    background-image: url(../images/lote4/aire-5.jpg);
+}
+
+.ss-circle-lote4-14{
+    background-image: url(../images/lote4/aire-14.jpg);
+}
+
+
+
+
+
+/* lote 5 */ 
+
+.ss-circle-lote5-19{
+    background-image: url(../images/lote5/aire-19.jpg);
+}
+
+.ss-circle-lote5-8{
+    background-image: url(../images/lote5/aire-8.jpg);
+}
+
+.ss-circle-lote5-6{
+    background-image: url(../images/lote5/aire-6.jpg);
+}
+
+.ss-circle-lote5-13{
+    background-image: url(../images/lote5/aire-13.jpg);
+}
+
+
+
+
+
+/* lote 6 */ 
+
+.ss-circle-lote6-12{
+    background-image: url(../images/lote6/aire-12.jpg);
+}
+
+.ss-circle-lote6-13{
+    background-image: url(../images/lote6/aire-13.jpg);
+}
+
+.ss-circle-lote6-15{
+    background-image: url(../images/lote6/aire-15.jpg);
+}
+
+.ss-circle-lote6-19{
+    background-image: url(../images/lote6/aire-19.jpg);
+}
+
+.ss-circle-lote6-22{
+    background-image: url(../images/lote6/aire-22.jpg);
+}
+
+.ss-circle-lote6-23{
+    background-image: url(../images/lote6/aire-23.jpg);
+}
+
+.ss-circle-lote6-1{
+    background-image: url(../images/lote6/aire-1.jpg);
+}
+
+.ss-circle-lote6-16{
+    background-image: url(../images/lote6/aire-16.jpg);
+}
+
+.ss-circle-lote6-24{
+    background-image: url(../images/lote6/aire-24.jpg);
+}
+
+.ss-circle-lote6-4{
+    background-image: url(../images/lote6/aire-4.jpg);
+}
+
+.ss-circle-lote6-14{
+    background-image: url(../images/lote6/aire-14.jpg);
+}
+
+
+
+
+

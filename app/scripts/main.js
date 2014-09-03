@@ -25,11 +25,11 @@ $(function() {
       var $sidescroll = (function() {
           
           // the row elements
-        var $rows     = $('#ss-container > div.ss-row'),
+        var $rows     = $('#ss-container div.ss-row'),
           // we will cache the inviewport rows and the outside viewport rows
           $rowsViewport, $rowsOutViewport,
           // navigation menu links
-          $links      = $('#ss-links > a'),
+          $links      = $('#ss-links a'),
           // the window element
           $win      = $(window),
           // we will store the window sizes here
@@ -273,9 +273,19 @@ $(function() {
       
       $sidescroll.init();
       
+});
+
+
+
+    $(document).ready(function() {
+
+
+      $('.fancybox').fancybox();
+
+  
+
     });
-
-
+  
 
 
 
