@@ -324,48 +324,48 @@ main {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 300;
-  src: url(/fonts/RobotoCondensed-Light.eot);
-  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(/fonts/RobotoCondensed-Light.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-Light.woff) format('woff');
+  src: url(../fonts/RobotoCondensed-Light.eot);
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(../fonts/RobotoCondensed-Light.eot) format('embedded-opentype'), url(../fonts/RobotoCondensed-Light.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/RobotoCondensed-Regular.eot);
-  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(/fonts/RobotoCondensed-Regular.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-Regular.woff) format('woff');
+  src: url(../fonts/RobotoCondensed-Regular.eot);
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(../fonts/RobotoCondensed-Regular.eot) format('embedded-opentype'), url(../fonts/RobotoCondensed-Regular.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
-  src: url(/fonts/RobotoCondensed-Bold.eot);
-  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Bold'), url(/fonts/RobotoCondensed-Bold.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-Bold.woff) format('woff');
+  src: url(../fonts/RobotoCondensed-Bold.eot);
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Bold'), url(../fonts/RobotoCondensed-Bold.eot) format('embedded-opentype'), url(../fonts/RobotoCondensed-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 300;
-  src: url(/fonts/RobotoCondensed-LightItalic.eot);
-  src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url(/fonts/RobotoCondensed-LightItalic.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-LightItalic.woff) format('woff');
+  src: url(../fonts/RobotoCondensed-LightItalic.eot);
+  src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url(../fonts/RobotoCondensed-LightItalic.eot) format('embedded-opentype'), url(../fonts/RobotoCondensed-LightItalic.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 400;
-  src: url(/fonts/RobotoCondensed-Italic.eot);
-  src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url(/fonts/RobotoCondensed-Italic.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-Italic.woff) format('woff');
+  src: url(../fonts/RobotoCondensed-Italic.eot);
+  src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url(../fonts/RobotoCondensed-Italic.eot) format('embedded-opentype'), url(../fonts/RobotoCondensed-Italic.woff) format('woff');
 }
 
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: italic;
   font-weight: 700;
-  src: url(/fonts/RobotoCondensed-BoldItalic.eot);
-  src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url(/fonts/RobotoCondensed-BoldItalic.eot) format('embedded-opentype'), url(/fonts/RobotoCondensed-BoldItalic.woff) format('woff');
+  src: url(../fonts/RobotoCondensed-BoldItalic.eot);
+  src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url(../fonts/RobotoCondensed-BoldItalic.eot) format('embedded-opentype'), url(../fonts/RobotoCondensed-BoldItalic.woff) format('woff');
 }
 
 /* General Demo Style */
@@ -832,9 +832,26 @@ h2.ss-subtitle:after{
     background-image: url(../images/lote2/aire-17.jpg);
 }
 
-.ss-circle-lote4-9{
-    background-image: url(../images/lote4/aire-9.jpg);
+.ss-circle-lote2-18{
+    background-image: url(../images/lote2/aire-18.jpg);
 }
+
+.ss-circle-lote2-16{
+    background-image: url(../images/lote2/aire-16.jpg);
+}
+
+.ss-circle-lote2-1{
+    background-image: url(../images/lote2/aire-1.jpg);
+}
+
+.ss-circle-lote2-15{
+    background-image: url(../images/lote2/aire-15.jpg);
+}
+
+
+
+
+
 
 
 /* lote 3 */ 
@@ -851,6 +868,67 @@ h2.ss-subtitle:after{
     background-image: url(../images/lote3/aire-12.jpg);
 }
 
+.ss-circle-lote3-5{
+    background-image: url(../images/lote3/aire-5.jpg);
+}
+
+.ss-circle-lote3-9{
+    background-image: url(../images/lote3/aire-9.jpg);
+}
+
+.ss-circle-lote3-17{
+    background-image: url(../images/lote3/aire-17.jpg);
+}
+
+.ss-circle-lote3-3{
+    background-image: url(../images/lote3/aire-3.jpg);
+}
+
+.ss-circle-lote3-10{
+    background-image: url(../images/lote3/aire-10.jpg);
+}
+
+.ss-circle-lote3-1{
+    background-image: url(../images/lote3/aire-1.jpg);
+}
+
+.ss-circle-lote3-6{
+    background-image: url(../images/lote3/aire-6.jpg);
+}
+
+.ss-circle-lote3-7{
+    background-image: url(../images/lote3/aire-7.jpg);
+}
+
+.ss-circle-lote3-11{
+    background-image: url(../images/lote3/aire-11.jpg);
+}
+
+.ss-circle-lote3-11{
+    background-image: url(../images/lote3/aire-11.jpg);
+}
+
+.ss-circle-lote3-13{
+    background-image: url(../images/lote3/aire-13.jpg);
+}
+
+.ss-circle-lote3-14{
+    background-image: url(../images/lote3/aire-14.jpg);
+}
+
+.ss-circle-lote3-15{
+    background-image: url(../images/lote3/aire-15.jpg);
+}
+
+.ss-circle-lote3-18{
+    background-image: url(../images/lote3/aire-18.jpg);
+}
+
+
+
+
+
+
 /* lote 4 */ 
 
 .ss-circle-lote4-1{
@@ -865,7 +943,49 @@ h2.ss-subtitle:after{
     background-image: url(../images/lote4/aire-14.jpg);
 }
 
+.ss-circle-lote4-9{
+    background-image: url(../images/lote4/aire-9.jpg);
+}
 
+.ss-circle-lote4-3{
+    background-image: url(../images/lote4/aire-3.jpg);
+}
+
+.ss-circle-lote4-12{
+    background-image: url(../images/lote4/aire-12.jpg);
+}
+
+.ss-circle-lote4-10{
+    background-image: url(../images/lote4/aire-10.jpg);
+}
+
+.ss-circle-lote4-2{
+    background-image: url(../images/lote4/aire-2.jpg);
+}
+
+.ss-circle-lote4-19{
+    background-image: url(../images/lote4/aire-19.jpg);
+}
+
+.ss-circle-lote4-6{
+    background-image: url(../images/lote4/aire-6.jpg);
+}
+
+.ss-circle-lote4-11{
+    background-image: url(../images/lote4/aire-11.jpg);
+}
+
+.ss-circle-lote4-13{
+    background-image: url(../images/lote4/aire-13.jpg);
+}
+
+.ss-circle-lote4-17{
+    background-image: url(../images/lote4/aire-17.jpg);
+}
+
+.ss-circle-lote4-20{
+    background-image: url(../images/lote4/aire-20.jpg);
+}
 
 
 
@@ -885,6 +1005,22 @@ h2.ss-subtitle:after{
 
 .ss-circle-lote5-13{
     background-image: url(../images/lote5/aire-13.jpg);
+}
+
+.ss-circle-lote5-7{
+    background-image: url(../images/lote5/aire-7.jpg);
+}
+
+.ss-circle-lote5-9{
+    background-image: url(../images/lote5/aire-9.jpg);
+}
+
+.ss-circle-lote5-11{
+    background-image: url(../images/lote5/aire-11.jpg);
+}
+
+.ss-circle-lote5-4{
+    background-image: url(../images/lote5/aire-4.jpg);
 }
 
 
@@ -936,6 +1072,31 @@ h2.ss-subtitle:after{
 .ss-circle-lote6-14{
     background-image: url(../images/lote6/aire-14.jpg);
 }
+
+.ss-circle-lote6-9{
+    background-image: url(../images/lote6/aire-9.jpg);
+}
+
+.ss-circle-lote6-25{
+    background-image: url(../images/lote6/aire-23.jpg);
+}
+
+.ss-circle-lote6-7{
+    background-image: url(../images/lote6/aire-7.jpg);
+}
+
+.ss-circle-lote6-8{
+    background-image: url(../images/lote6/aire-8.jpg);
+}
+
+.ss-circle-lote6-10{
+    background-image: url(../images/lote6/aire-10.jpg);
+}
+
+.ss-circle-lote6-17{
+    background-image: url(../images/lote6/aire-17.jpg);
+}
+
 
 
 
